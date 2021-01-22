@@ -1,4 +1,5 @@
-# GithubHost
+  ![:name](https://count.getloli.com/get/@rokate?theme=gelbooru-h)
+
 
 ## 功能  
 利用Action进行github的DNS查询, 将得到的结果发布到issue页面。  
