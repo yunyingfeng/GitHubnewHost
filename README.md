@@ -1,16 +1,14 @@
 # GithubHost
-## Ç°ÑÔ  
-ÒòÎªÓĞ¼¸¸öÓòÃû±»DNSÎÛÈ¾ÁË£¬GitHubÀÏÊÇ¿´²»¼ûÍ¼£¬ËìÓĞÁËÕâ¸ö¹¤³Ì¡£ËäÈ»Ã»´óÓÃÊÇÁË¡£¡£¡£
 
-## ¹¦ÄÜ  
-ÀûÓÃº£ÍâµÄ»úÆ÷½øĞĞÏà¹ØÍøÕ¾µÄDNS²éÑ¯, ½«µÃµ½µÄ½á¹û·¢²¼µ½issueÒ³Ãæ¡£  
-+ Ö§³ÖÖÜÆÚĞÔ×Ô¶¯·¢²¼
-    + Ã¿ÔÂ1/16ºÅ·¢²¼issue
-+ Ö§³Ö×Ô¶¯»Ø¸´  
-    + Èç¹ûÏë²éÑ¯×îĞÂµÄhost£¬¿ÉÒÔ×Ô¼º¿ª¸öissue£¬×Ô¶¯»Ø¸´¡£
-    + ¾ÙÀı[issue #1](https://github.com/ButterAndButterfly/GithubHost/issues/1)
+## åŠŸèƒ½  
+åˆ©ç”¨Actionè¿›è¡Œgithubçš„DNSæŸ¥è¯¢, å°†å¾—åˆ°çš„ç»“æœå‘å¸ƒåˆ°issueé¡µé¢ã€‚  
++ æ”¯æŒå‘¨æœŸæ€§è‡ªåŠ¨å‘å¸ƒ
+    + æ¯æœˆ1/16å·å‘å¸ƒissue
++ æ”¯æŒè‡ªåŠ¨å›å¤  
+    + å¦‚æœæƒ³æŸ¥è¯¢æœ€æ–°çš„hostï¼Œå¯ä»¥è‡ªå·±å¼€ä¸ªissueï¼Œè‡ªåŠ¨å›å¤ã€‚
+    + ä¸¾ä¾‹[issue #1](https://github.com/Rokate/GitHubnewHost/issues/1)
 
-## ²é¿´
-+ ÇëÒÆ²½[issue](https://github.com/ButterAndButterfly/GithubHost/issues/)Ò³Ãæ¡£   
-+ ¸ü¸Ähostsºó£¬×¢Òâ`ipconfig /flushdns`Ë¢ĞÂDNS»º´æ¡£
+## æŸ¥çœ‹
++ è¯·ç§»æ­¥[issue](https://github.com/Rokate/GitHubnewHost/issues/)é¡µé¢ã€‚   
++ æ›´æ”¹hostsåï¼Œæ³¨æ„`ipconfig /flushdns`åˆ·æ–°DNSç¼“å­˜ã€‚
 
