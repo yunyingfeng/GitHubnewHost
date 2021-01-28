@@ -7,7 +7,7 @@
     + 每日发布issue
 + 支持自动回复  
     + 如果想查询最新的host，可以自己开个issue，自动回复。
-    + 举例[issue #1](https://github.com/Rokate/GitHubnewHost/issues/1)
+    + 举例[issue #23](https://github.com/Rokate/GitHubnewHost/issues/23)
 
 ## 查看
 + 请移步[issue](https://github.com/Rokate/GitHubnewHost/issues/)页面。   
