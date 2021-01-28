@@ -4,7 +4,7 @@
 import socket
 
 def output_hosts():
-    domains = ['github.com',
+    domains = [ 'github.com',
                 'gist.github.com',
                 'assets-cdn.github.com',
                 'raw.githubusercontent.com',
@@ -24,6 +24,7 @@ def output_hosts():
                 'github.githubassets.com',
                 'user-images.githubusercontent.com',
                 'codeload.github.com',
+                'favicons.githubusercontent.com',
                 'api.github.com']
     
     with open('hosts.txt', 'w') as f:
