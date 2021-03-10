@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding:utf-8
  
-import socket
+import socket, time
 
-def output_hosts():
-    domains = [ 'github.com',
+domains = [ 
+                'github.com',
                 'gist.github.com',
                 'assets-cdn.github.com',
                 'raw.githubusercontent.com',
@@ -24,20 +24,36 @@ def output_hosts():
                 'github.githubassets.com',
                 'user-images.githubusercontent.com',
                 'codeload.github.com',
-                'favicons.githubusercontent.com',
-                'api.github.com']
-    
+                'favicons.githubusercontent.com'
+                'marketplace-screenshots.githubusercontent.com',
+                'repository-images.githubusercontent.com',
+                'uploads.github.com',
+                'octocaptcha.com',  
+                'api.github.com'
+]
+  
+def gen_host():
+    for domain in domains:
+        print('Querying ip for domain %s'%domain)
+        ip = socket.gethostbyname(domain)
+        print(ip)
+        yield (ip, domain)
+       
+def get_now_date_str(format_string="%Y-%m-%d %H:%M:%S"):#"%Y-%m-%d %H:%M:%S"
+    time_stamp = int(time.time())
+    time_array = time.localtime(time_stamp)
+    str_date = time.strftime(format_string, time_array)
+    return str_date
+
+def output_hosts():
     with open('hosts.txt', 'w') as f:
         f.write('```\n')
         f.write('# GitHub Start \n')
-        for domain in domains:
-            print('Querying ip for domain %s'%domain)
-            ip = socket.gethostbyname(domain)
-            print(ip)
+        f.write('# Last update at %s (Machine Local Time)\n'%(get_now_date_str()))
+        for ip, domain in gen_host():
             f.write('%s %s\n'%(ip, domain))
-        f.write('# GitHub End \n') 
+        f.write('# GitHub End \n')
         f.write('```\n')
-        
         
     
 if __name__ == '__main__':
