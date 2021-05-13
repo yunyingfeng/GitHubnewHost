@@ -11,5 +11,5 @@
 
 ## 查看
 + 请移步[issue](https://github.com/Rokate/GitHubnewHost/issues/)页面。   
-+ 更改hosts后，注意`ipconfig /flushdns`刷新DNS缓存。
++ 更改hosts后，注意`ipconfig /flushdns`
 
