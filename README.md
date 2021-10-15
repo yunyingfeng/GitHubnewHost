@@ -10,6 +10,6 @@
     + 举例[issue #23](https://github.com/Rokate/GitHubnewHost/issues/23)
 
 ## 查看
-+ 请移步[issue](https://github.com/Rokate/GitHubnewHost/issues/)页面。   
++ 请移步[issue](https://github.com/Rokate/GitHubnewHost/issues/) 页面。   
 + 更改hosts后，注意`ipconfig /flushdns`
 
